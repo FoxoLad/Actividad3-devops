@@ -1,0 +1,1 @@
+printf 'version: "3"\nservices:\n  web:\n    build: ./app\n    ports:\n      - "5000:5000"\n' > docker-compose.yml
